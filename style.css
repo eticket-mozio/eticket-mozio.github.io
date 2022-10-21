@@ -4,15 +4,11 @@ body, html{
   width: 100%;
 }
 
-#overlayText {
-  position:absolute;
-   top:30%;
-   left:20%;
-   z-index:1;
- }
- 
- #topText {
-   color: white;
-   font-size: 20px;
-   align-self: center;
- }
+.img-hor {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
