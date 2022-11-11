@@ -2,6 +2,15 @@ body, html{
   margin:0;
   padding:0;
   width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+video {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .img-hor {
@@ -11,4 +20,21 @@ body, html{
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+}
+
+.overlay-station {
+  position: absolute;
+  top: 388px;
+  left: 621px;
+  z-index: 10;
+  color: white;
+  font-size: 200%;
+  text-align: center;
+}
+
+.overlay-datetime {
+  position: absolute;
+  top: 61%;
+  left: 20%;
+  z-index: 10;
 }
